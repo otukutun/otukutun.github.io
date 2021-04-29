@@ -18,14 +18,14 @@ int main(void)
     array[i] = i;
   }
 
-  bool exists = false;
+  bool exist = false;
   for (int i = 0; i <= max; i++)
   {
     if (array[i] == v)
     {
-      exists = true;
+      exist = true;
     }
   }
 
-  printf("Exists: %s", exists ? "true" : "false");
+  printf("Exist: %s\n", exist ? "true" : "false");
 }
