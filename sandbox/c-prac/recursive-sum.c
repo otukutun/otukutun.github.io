@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdbool.h>
 
 int recursive_sum(int v)
 {
@@ -22,4 +21,3 @@ int main(void)
 
   printf("Sum is %d\n", v);
 }
-
